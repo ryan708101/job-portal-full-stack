@@ -10,8 +10,8 @@ import connectCloudinary from './config/cloudinary.js'
 import jobRoutes from './routes/jobRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 import { clerkMiddleware } from '@clerk/express'
-
-
+// console.log(process.env.MONGODB_URI);
+// console.log("welcome");
 // Initialize Express
 const app = express()
 
